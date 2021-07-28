@@ -78,14 +78,14 @@ chmod +x xp
 chmod +x update
 chmod +x strt
 chmod +x swap
-wget -O /usr/bin/ssr https://https://raw.githubusercontent.com/Alamyazid/rev/main/ssrmu.sh && chmod +x /usr/bin/ssr
-wget -O /usr/bin/add-ssr https://https://raw.githubusercontent.com/Alamyazid/rev/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
-wget -O /usr/bin/del-ssr https://https://raw.githubusercontent.com/Alamyazid/rev/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
-wget -O /usr/bin/renew-ssr https://https://raw.githubusercontent.com/Alamyazid/rev/main/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
-wget -O /usr/bin/add-sstp https://https://raw.githubusercontent.com/Alamyazid/rev/main/add-sstp.sh && chmod +x /usr/bin/add-sstp
-wget -O /usr/bin/del-sstp https://https://raw.githubusercontent.com/Alamyazid/rev/main/del-sstp.sh && chmod +x /usr/bin/del-sstp
-wget -O /usr/bin/cek-sstp https://https://raw.githubusercontent.com/Alamyazid/rev/main/cek-sstp.sh && chmod +x /usr/bin/cek-sstp
-wget -O /usr/bin/renew-sstp https://https://raw.githubusercontent.com/Alamyazid/rev/main/renew-sstp.sh && chmod +x /usr/bin/renew-sstp
+wget -O /usr/bin/ssr https://raw.githubusercontent.com/Alamyazid/rev/main/ssrmu.sh && chmod +x /usr/bin/ssr
+wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/Alamyazid/rev/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
+wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/Alamyazid/rev/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
+wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/Alamyazid/rev/main/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
+wget -O /usr/bin/add-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/add-sstp.sh && chmod +x /usr/bin/add-sstp
+wget -O /usr/bin/del-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/del-sstp.sh && chmod +x /usr/bin/del-sstp
+wget -O /usr/bin/cek-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/cek-sstp.sh && chmod +x /usr/bin/cek-sstp
+wget -O /usr/bin/renew-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/renew-sstp.sh && chmod +x /usr/bin/renew-sstp
 wget -O add-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/add-wg.sh"
 wget -O del-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/del-wg.sh"
 wget -O cek-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/cek-wg.sh"
@@ -128,10 +128,10 @@ chmod +x renew-ws
 chmod +x renew-vless
 chmod +x renew-tr
 chmod +x certv2ray
-wget -O /usr/bin/add-l2tp https://https://raw.githubusercontent.com/Alamyazid/rev/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
-wget -O /usr/bin/del-l2tp https://https://raw.githubusercontent.com/Alamyazid/rev/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
-wget -O /usr/bin/add-pptp https://https://raw.githubusercontent.com/Alamyazid/rev/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
-wget -O /usr/bin/del-pptp https://https://raw.githubusercontent.com/Alamyazid/rev/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
-wget -O /usr/bin/renew-pptp https://https://raw.githubusercontent.com/Alamyazid/rev/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
-wget -O /usr/bin/renew-l2tp https://https://raw.githubusercontent.com/Alamyazid/rev/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
+wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
+wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
+wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/Alamyazid/rev/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
+wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/Alamyazid/rev/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
+wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/Alamyazid/rev/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
+wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
 echo "done"
