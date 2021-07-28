@@ -1,5 +1,5 @@
 #!/bin/bash
-# By RPJ WONOSOBO
+# 
 # ==================================================
 
 # initializing var
