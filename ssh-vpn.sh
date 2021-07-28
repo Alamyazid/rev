@@ -180,8 +180,8 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo by RADENPANCAL" >> .profile
-echo "echo Ketik menu Untuk Melihat Options" >> .profile
+echo "echo by TuanYz" >> .profile
+echo "echo Ketik menu" >> .profile
 
 # install webserver
 apt -y install nginx
