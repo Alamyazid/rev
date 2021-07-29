@@ -1,0 +1,11 @@
+
+cd /usr/bin
+rm /usr/bin/l2tp
+rm /usr/bin/menu
+rm /usr/bin/ssh
+rm /usr/bin/ssssr
+rm /usr/bin/sstpp
+rm /usr/bin/trojaan
+rm /usr/bin/v2raay
+rm /usr/bin/vleess
+rm /usr/bin/wgr
