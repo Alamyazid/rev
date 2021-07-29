@@ -12,12 +12,12 @@ wget -O /usr/bin/wgr https://raw.githubusercontent.com/Alamyazid/rev/main/update
 
 
 cd /usr/bin
-chmod +x /usr/bin/l2tp
-chmod +x /usr/bin/menu
-chmod +x /usr/bin/ssh
-chmod +x /usr/bin/ssssr
-chmod +x /usr/bin/sstpp
-chmod +x /usr/bin/trojaan
-chmod +x /usr/bin/v2raay
-chmod +x /usr/bin/vleess
-chmod +x /usr/bin/wgr
+chmod +x l2tp
+chmod +x menu
+chmod +x ssh
+chmod +x ssssr
+chmod +x sstpp
+chmod +x trojaan
+chmod +x v2raay
+chmod +x vleess
+chmod +x wgr
