@@ -22,7 +22,3 @@ chmod +x v2raay
 chmod +x vleess
 chmod +x wgr
 
-clear
-echo " Reboot 10 Sec"
-sleep 10
-reboot
