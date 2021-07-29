@@ -97,6 +97,7 @@ wget -O /usr/bin/trojaan https://raw.githubusercontent.com/Alamyazid/rev/main/up
 wget -O /usr/bin/v2raay https://raw.githubusercontent.com/Alamyazid/rev/main/update/v2raay.sh && chmod +x /usr/bin/v2raay
 wget -O /usr/bin/vleess https://raw.githubusercontent.com/Alamyazid/rev/main/update/vleess.sh && chmod +x /usr/bin/vleess
 wget -O /usr/bin/wgr https://raw.githubusercontent.com/Alamyazid/rev/main/update/wgr.sh && chmod +x /usr/bin/wgr
+wget -O /usr/bin/bannerku https://raw.githubusercontent.com/Alamyazid/rev/main/update/bannerku && chmod +x /usr/bin/bannerku
 #wget -O add-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/add-wg.sh"
 #wget -O del-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/del-wg.sh"
 #wget -O cek-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/cek-wg.sh"
