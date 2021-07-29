@@ -2,7 +2,6 @@
 cd /usr/bin
 rm -r menu
 
-cd /usr/bin
 wget -O l2tp "https://raw.githubusercontent.com/Alamyazid/rev/main/update/l2tp.sh"
 wget -O menu "https://raw.githubusercontent.com/Alamyazid/rev/main/update/menu.sh"
 wget -O ssh "https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssh.sh"
