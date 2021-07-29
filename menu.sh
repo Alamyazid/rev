@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e ""
-echo -e "==========================-WISANG-RPJ-=========================="
+echo -e "==========================-TUANYZ-=========================="
 echo -e "* menu         : List of Main Commands"
 echo -e ""
 echo -e "=========================-SSH & OpenVPN-========================"
@@ -89,6 +89,7 @@ echo -e "* ram          : Check Usage of VPS Ram"
 echo -e "* reboot       : Reboot VPS"
 echo -e "* speedtest    : Speedtest VPS"
 echo -e "* update       : Update To Latest Script Version"
+echo -e "* upgrade-mn   : upgrade menu view"
 echo -e "* info         : Displaying System Information"
 echo -e "* about        : Info Script Auto Install"
 echo -e "* exit         : Exit From VPS "
