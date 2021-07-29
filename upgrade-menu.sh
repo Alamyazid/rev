@@ -1,7 +1,7 @@
 rm -r /usr/bin/menu
 
 
-sudo /usr/bin/
+cd /usr/bin/
 wget -O /usr/bin/ l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/update/l2tp.sh && chmod +x /usr/bin/l2tp
 wget -O /usr/bin/menu https://raw.githubusercontent.com/Alamyazid/rev/main/update/menu.sh && chmod +x /usr/bin/menu
 wget -O /usr/bin/ssh https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssh.sh && chmod +x /usr/bin/ssh
