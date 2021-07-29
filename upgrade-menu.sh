@@ -1,23 +1,11 @@
 
 cd /usr/bin
-wget -O /usr/bin/ l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/update/l2tp.sh && chmod +x /usr/bin/l2tp
-wget -O /usr/bin/menu https://raw.githubusercontent.com/Alamyazid/rev/main/update/menu.sh && chmod +x /usr/bin/menu
-wget -O /usr/bin/ssh https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssh.sh && chmod +x /usr/bin/ssh
-wget -O /usr/bin/ssssr https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssssr.sh && chmod +x /usr/bin/ssssr
-wget -O /usr/bin/sstpp https://raw.githubusercontent.com/Alamyazid/rev/main/update/sstpp.sh && chmod +x /usr/bin/sstpp
-wget -O /usr/bin/trojaan https://raw.githubusercontent.com/Alamyazid/rev/main/update/trojaan.sh && chmod +x /usr/bin/trojaan
-wget -O /usr/bin/v2raay https://raw.githubusercontent.com/Alamyazid/rev/main/update/v2raay.sh && chmod +x /usr/bin/v2raay
-wget -O /usr/bin/vleess https://raw.githubusercontent.com/Alamyazid/rev/main/update/vleess.sh && chmod +x /usr/bin/vleess
-wget -O /usr/bin/wgr https://raw.githubusercontent.com/Alamyazid/rev/main/update/wgr.sh && chmod +x /usr/bin/wgr
-
-
-cd /usr/bin
-chmod +x l2tp.sh
-chmod +x menu.sh
-chmod +x ssh.sh
-chmod +x ssssr.sh
-chmod +x sstpp.sh
-chmod +x trojaan.sh
-chmod +x v2raay.sh
-chmod +x vleess.sh
-chmod +x wgr.sh
+wget -O /usr/bin/l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/update/l2tp.sh && chmod +x /usr/bin/l2tp.sh
+wget -O /usr/bin/menu https://raw.githubusercontent.com/Alamyazid/rev/main/update/menu.sh && chmod +x /usr/bin/menu.sh
+wget -O /usr/bin/ssh https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssh.sh && chmod +x /usr/bin/ssh.sh
+wget -O /usr/bin/ssssr https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssssr.sh && chmod +x /usr/bin/ssssr.sh
+wget -O /usr/bin/sstpp https://raw.githubusercontent.com/Alamyazid/rev/main/update/sstpp.sh && chmod +x /usr/bin/sstpp.sh
+wget -O /usr/bin/trojaan https://raw.githubusercontent.com/Alamyazid/rev/main/update/trojaan.sh && chmod +x /usr/bin/trojaan.sh
+wget -O /usr/bin/v2raay https://raw.githubusercontent.com/Alamyazid/rev/main/update/v2raay.sh && chmod +x /usr/bin/v2raay.sh
+wget -O /usr/bin/vleess https://raw.githubusercontent.com/Alamyazid/rev/main/update/vleess.sh && chmod +x /usr/bin/vleess.sh
+wget -O /usr/bin/wgr https://raw.githubusercontent.com/Alamyazid/rev/main/update/wgr.sh && chmod +x /usr/bin/wgr.sh
