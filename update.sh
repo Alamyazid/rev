@@ -47,7 +47,7 @@ wget -O xp "https://raw.githubusercontent.com/Alamyazid/rev/main/xp.sh"
 wget -O update "https://raw.githubusercontent.com/Alamyazid/rev/main/update.sh"
 wget -O strt "https://raw.githubusercontent.com/Alamyazid/rev/main/strt.sh"
 wget -O swap "https://raw.githubusercontent.com/Alamyazid/rev/main/swapkvm.sh"
-wget -O upgrade-mn "https://raw.githubusercontent.com/Alamyazid/rev/main/upgrade-menu.sh"
+wget -O upgrade-mn "https://raw.githubusercontent.com/Alamyazid/rev/main/up-menu.sh"
 chmod +x add-host
 chmod +x usernew
 chmod +x trial
@@ -88,15 +88,15 @@ wget -O /usr/bin/add-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/a
 wget -O /usr/bin/del-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/del-sstp.sh && chmod +x /usr/bin/del-sstp
 wget -O /usr/bin/cek-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/cek-sstp.sh && chmod +x /usr/bin/cek-sstp
 wget -O /usr/bin/renew-sstp https://raw.githubusercontent.com/Alamyazid/rev/main/renew-sstp.sh && chmod +x /usr/bin/renew-sstp
-wget -O /usr/bin/l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/update/l2tp.sh && chmod +x /usr/bin/l2tp
-wget -O /usr/bin/menu https://raw.githubusercontent.com/Alamyazid/rev/main/update/menu.sh && chmod +x /usr/bin/menu
-wget -O /usr/bin/ssh https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssh.sh && chmod +x /usr/bin/ssh
-wget -O /usr/bin/ssssr https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssssr.sh && chmod +x /usr/bin/ssssr
-wget -O /usr/bin/sstpp https://raw.githubusercontent.com/Alamyazid/rev/main/update/sstpp.sh && chmod +x /usr/bin/sstpp
-wget -O /usr/bin/trojaan https://raw.githubusercontent.com/Alamyazid/rev/main/update/trojaan.sh && chmod +x /usr/bin/trojaan
-wget -O /usr/bin/v2raay https://raw.githubusercontent.com/Alamyazid/rev/main/update/v2raay.sh && chmod +x /usr/bin/v2raay
-wget -O /usr/bin/vleess https://raw.githubusercontent.com/Alamyazid/rev/main/update/vleess.sh && chmod +x /usr/bin/vleess
-wget -O /usr/bin/wgr https://raw.githubusercontent.com/Alamyazid/rev/main/update/wgr.sh && chmod +x /usr/bin/wgr
+#wget -O /usr/bin/l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/update/l2tp.sh && chmod +x /usr/bin/l2tp
+#wget -O /usr/bin/menu https://raw.githubusercontent.com/Alamyazid/rev/main/update/menu.sh && chmod +x /usr/bin/menu
+#wget -O /usr/bin/ssh https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssh.sh && chmod +x /usr/bin/ssh
+#wget -O /usr/bin/ssssr https://raw.githubusercontent.com/Alamyazid/rev/main/update/ssssr.sh && chmod +x /usr/bin/ssssr
+#wget -O /usr/bin/sstpp https://raw.githubusercontent.com/Alamyazid/rev/main/update/sstpp.sh && chmod +x /usr/bin/sstpp
+#wget -O /usr/bin/trojaan https://raw.githubusercontent.com/Alamyazid/rev/main/update/trojaan.sh && chmod +x /usr/bin/trojaan
+#wget -O /usr/bin/v2raay https://raw.githubusercontent.com/Alamyazid/rev/main/update/v2raay.sh && chmod +x /usr/bin/v2raay
+#wget -O /usr/bin/vleess https://raw.githubusercontent.com/Alamyazid/rev/main/update/vleess.sh && chmod +x /usr/bin/vleess
+#wget -O /usr/bin/wgr https://raw.githubusercontent.com/Alamyazid/rev/main/update/wgr.sh && chmod +x /usr/bin/wgr
 wget -O add-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/add-wg.sh"
 wget -O del-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/del-wg.sh"
 wget -O cek-wg "https://raw.githubusercontent.com/Alamyazid/rev/main/cek-wg.sh"
