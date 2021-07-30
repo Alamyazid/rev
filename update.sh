@@ -49,6 +49,7 @@ wget -O strt "https://raw.githubusercontent.com/Alamyazid/rev/main/strt.sh"
 wget -O swap "https://raw.githubusercontent.com/Alamyazid/rev/main/swapkvm.sh"
 wget -O upgrade-mn "https://raw.githubusercontent.com/Alamyazid/rev/main/up-menu.sh"
 wget -O backup "https://raw.githubusercontent.com/Alamyazid/rev/main/backup.sh"
+wget -O autobackup "https://raw.githubusercontent.com/Alamyazid/rev/main/autobackup.sh"
 chmod +x add-host
 chmod +x usernew
 chmod +x trial
@@ -82,6 +83,7 @@ chmod +x strt
 chmod +x swap
 chmod +x upgrade-mn
 chmod +x backup
+chmod +x autobackup
 wget -O /usr/bin/ssr https://raw.githubusercontent.com/Alamyazid/rev/main/ssrmu.sh && chmod +x /usr/bin/ssr
 wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/Alamyazid/rev/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
 wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/Alamyazid/rev/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
