@@ -20,7 +20,7 @@ mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
-wget https://raw.githubusercontent.com/Alamyazid/rev/main/ssh.sh && chmod +x ssh.sh && screen -S ssh ./ssh.sh
+wget https://raw.githubusercontent.com/Alamyazid/rev/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
@@ -32,8 +32,8 @@ wget https://raw.githubusercontent.com/Alamyazid/rev/main/ins-vt.sh && chmod +x 
 #install L2TP
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-wget https://raw.githubusercontent.com/Alamyazid/Autoscript/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
-rm -f /root/ssh.sh
+#wget https://raw.githubusercontent.com/Alamyazid/Autoscript/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
+rm -f /root/ssh-vpn.sh
 rm -f /root/weleh.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
