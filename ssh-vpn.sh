@@ -73,32 +73,32 @@ systemctl restart edu-proxy
 clear
 
 # Getting Proxy Template Ssl
-#wget -q -O /usr/local/bin/edu-proxyssl https://raw.githubusercontent.com/Alamyazid/rev/main/proxy-templatedssl.py
-#chmod +x /usr/local/bin/edu-proxyssl
+wget -q -O /usr/local/bin/edu-proxyssl https://raw.githubusercontent.com/Alamyazid/rev/main/proxy-templatedssl.py
+chmod +x /usr/local/bin/edu-proxyssl
 
 # Installing Service
-#cat > /etc/systemd/system/edu-proxyssl.service << END
-#[Unit]
-#Description=Python Edu Ssl Proxy By Radenpancal Service
-#Documentation=https://lestakun.tech
-#After=network.target nss-lookup.target
+cat > /etc/systemd/system/edu-proxyssl.service << END
+[Unit]
+Description=Python Edu Ssl Proxy By Radenpancal Service
+Documentation=https://lestakun.tech
+After=network.target nss-lookup.target
 
-$[Service]
-#Type=simple
-#User=root
-#CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-#AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-#NoNewPrivileges=true
-#ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxyssl
-#Restart=on-failure
+[Service]
+Type=simple
+User=root
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+NoNewPrivileges=true
+ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxyssl
+Restart=on-failure
 
-#[Install]
-#WantedBy=multi-user.target
-#END
+[Install]
+WantedBy=multi-user.target
+END
 
-#systemctl daemon-reload
-#systemctl enable edu-proxyssl
-#systemctl restart edu-proxyssl
+systemctl daemon-reload
+systemctl enable edu-proxyssl
+systemctl restart edu-proxyssl
 
 clear
 
@@ -218,7 +218,7 @@ sed -i 's/Port 22/Port 22/g' /etc/ssh/sshd_config
 apt -y install dropbear
 sed -i 's/NO_START=1/NO_START=0/g' /etc/default/dropbear
 sed -i 's/DROPBEAR_PORT=22/DROPBEAR_PORT=143/g' /etc/default/dropbear
-sed -i 's/DROPBEAR_EXTRA_ARGS=/DROPBEAR_EXTRA_ARGS="-p 109"/g' /etc/default/dropbear
+sed -i 's/DROPBEAR_EXTRA_ARGS=/DROPBEAR_EXTRA_ARGS="-p 109 -p 69"/g' /etc/default/dropbear
 echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
@@ -268,8 +268,8 @@ accept = 442
 connect = 127.0.0.1:1194
 
 [wsssl]
-accept = 3127
-connect = 127.0.0.1:443
+accept = 443
+connect = 127.0.0.1:700
 
 END
 
