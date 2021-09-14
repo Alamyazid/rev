@@ -167,21 +167,19 @@ socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
-[dropbear]
+
+[ssldropbear]
 accept = 445
-connect = 127.0.0.1:22
-
-[dropbear]
+connect = 127.0.0.1:44
+[ssldropbear]
 accept = 777
-connect = 127.0.0.1:22
-
+connect = 127.0.0.1:77
+[stunnelws]
+accept = 443
+connect = 700
 [openvpn]
 accept = 442
 connect = 127.0.0.1:1194
-
-[wsssl]
-accept = 443
-connect = 127.0.0.1:700
 
 END
 
