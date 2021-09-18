@@ -73,64 +73,64 @@ systemctl restart edu-proxy
 clear
 
 # Getting Proxy Template Ssl
-wget -q -O /usr/local/bin/edu-proxyssl https://raw.githubusercontent.com/Alamyazid/rev/main/proxy-templatedssl.py
-chmod +x /usr/local/bin/edu-proxyssl
+#wget -q -O /usr/local/bin/edu-proxyssl https://raw.githubusercontent.com/Alamyazid/rev/main/proxy-templatedssl.py
+#chmod +x /usr/local/bin/edu-proxyssl
 
 # Installing Service
-cat > /etc/systemd/system/edu-proxyssl.service << END
-[Unit]
-Description=Python Edu Ssl Proxy By Radenpancal Service
-Documentation=https://lestakun.tech
+#cat > /etc/systemd/system/edu-proxyssl.service << END
+#[Unit]
+#Description=Python Edu Ssl Proxy By Radenpancal Service
+#Documentation=https://lestakun.tech
 After=network.target nss-lookup.target
 
-[Service]
-Type=simple
-User=root
-CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxyssl
-Restart=on-failure
+#[Service]
+#Type=simple
+#User=root
+#CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+#AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+#NoNewPrivileges=true
+#ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxyssl
+#Restart=on-failure
 
-[Install]
-WantedBy=multi-user.target
-END
+#[Install]
+#WantedBy=multi-user.target
+#END
 
-systemctl daemon-reload
-systemctl enable edu-proxyssl
-systemctl restart edu-proxyssl
+#systemctl daemon-reload
+#systemctl enable edu-proxyssl
+#systemctl restart edu-proxyssl
 
-clear
+#clear
 
 # Getting Proxy Template Ovpn
-wget -q -O /usr/local/bin/edu-proxyovpn https://raw.githubusercontent.com/Alamyazid/rev/main/proxy-templatedovpn.py
-chmod +x /usr/local/bin/edu-proxyovpn
+#wget -q -O /usr/local/bin/edu-proxyovpn https://raw.githubusercontent.com/Alamyazid/rev/main/proxy-templatedovpn.py
+#chmod +x /usr/local/bin/edu-proxyovpn
 
 # Installing Service
-cat > /etc/systemd/system/edu-proxyovpn.service << END
-[Unit]
-Description=Python Edu Ovpn Proxy By Radenpancal Service
-Documentation=https://lestakun.tech
-After=network.target nss-lookup.target
+#cat > /etc/systemd/system/edu-proxyovpn.service << END
+#[Unit]
+#Description=Python Edu Ovpn Proxy By Radenpancal Service
+#Documentation=https://lestakun.tech
+#After=network.target nss-lookup.target
 
-[Service]
-Type=simple
-User=root
-CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxyovpn 2086
-Restart=on-failure
+#[Service]
+#Type=simple
+#User=root
+#CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+#AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+#NoNewPrivileges=true
+#ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxyovpn 2086
+#Restart=on-failure
 
-[Install]
-WantedBy=multi-user.target
-END
+#[Install]
+#WantedBy=multi-user.target
+#END
 
-systemctl daemon-reload
-systemctl enable edu-proxyovpn
-systemctl restart edu-proxyovpn
+#systemctl daemon-reload
+#systemctl enable edu-proxyovpn
+#systemctl restart edu-proxyovpn
 
-clear
+#clear
 
 # nano /etc/bin/wstunnel
 cat > /etc/bin/wstunnel <<-END
@@ -266,10 +266,6 @@ connect = 127.0.0.1:22
 [openvpn]
 accept = 442
 connect = 127.0.0.1:1194
-
-[wsssl]
-accept = 443
-connect = 700
 
 END
 
