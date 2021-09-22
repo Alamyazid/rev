@@ -67,7 +67,7 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-RPJ WONOSOBO-===========================" | tee -a log-install.txt
+echo "=================================-TuanYZ-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -108,11 +108,6 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : RPJ WONOSOBO"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/RPJ258"  | tee -a log-install.txt
-echo "   - Instagram               : @Daponedan"  | tee -a log-install.txt
-echo "   - Whatsapp                : 6285601438924"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/dapon" | tee -a log-install.txt
 echo "------------------Script Created By Chock Fighter Academy-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
