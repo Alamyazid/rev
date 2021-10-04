@@ -13,10 +13,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=www.lestakun.tech
-organizationalunit=www.lestakun.tech
-commonname=www.lestakun.tech
-email=lesta@lestakun.tech
+organization=www.klmrev.tech
+organizationalunit=www.klmrev.tech
+commonname=www.klmrev.tech
+email=tuanyazid13@gmai.com.tech
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/Alamyazid/rev/main/password"
