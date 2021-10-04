@@ -4,10 +4,7 @@ if [[ "$IP" = "" ]]; then
 PUBLIC_IP=$(wget -qO- ipv4.icanhazip.com);
 else
 PUBLIC_IP=$IP
-fi
 domain=$(cat /etc/v2ray/domain)
-else
-domain=$IP
 fi
 until [[ $VPN_USER =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		read -rp "Username: " -e VPN_USER
