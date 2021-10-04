@@ -49,8 +49,8 @@ chmod +x /usr/local/bin/edu-proxy
 # Installing Service
 cat > /etc/systemd/system/edu-proxy.service << END
 [Unit]
-Description=Python Edu Proxy By Radenpancal Service
-Documentation=https://lestakun.tech
+Description=Python Edu Proxy By Borneo Service
+Documentation=https://borneo.tech
 After=network.target nss-lookup.target
 
 [Service]
@@ -79,7 +79,7 @@ chmod +x /usr/local/bin/edu-proxyssl
 # Installing Service
 cat > /etc/systemd/system/edu-proxyssl.service << END
 [Unit]
-Description=Python Edu Ssl Proxy By Radenpancal Service
+Description=Python Edu Ssl Proxy By Borneo Service
 Documentation=https://lestakun.tech
 After=network.target nss-lookup.target
 
@@ -109,7 +109,7 @@ chmod +x /usr/local/bin/edu-proxyovpn
 # Installing Service
 cat > /etc/systemd/system/edu-proxyovpn.service << END
 [Unit]
-Description=Python Edu Ovpn Proxy By Radenpancal Service
+Description=Python Edu Ovpn Proxy By Borneo Service
 Documentation=https://lestakun.tech
 After=network.target nss-lookup.target
 
@@ -180,7 +180,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo by RADENPANCAL" >> .profile
+echo "echo By TuanYZ" >> .profile
 echo "echo Ketik menu Untuk Melihat Options" >> .profile
 
 # install webserver
