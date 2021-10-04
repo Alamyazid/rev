@@ -1,6 +1,10 @@
 #!/bin/bash
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
+PUBLIC_IP=$(wget -qO- ipv4.icanhazip.com);
+else
+PUBLIC_IP=$IP
+fi
 domain=$(cat /etc/v2ray/domain)
 else
 domain=$IP
@@ -38,7 +42,7 @@ cat <<EOF
 ================================
 L2TP/IPSEC PSK VPN
 
-Server IP    : $IP
+Server IP    : $PUBLIC_IP
 Host         : $domain
 IPsec PSK    : vpn
 Username     : $VPN_USER
