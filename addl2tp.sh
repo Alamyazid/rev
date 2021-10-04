@@ -1,11 +1,18 @@
 #!/bin/bash
+red='\e[1;31m'
+green='\e[0;32m'
+NC='\e[0m'
+MYIP=$(wget -qO- ifconfig.me/ip);
+echo "Checking VPS"
+
+echo -e "${green}Permission Accepted...${NC}"
+
+clear
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
-PUBLIC_IP=$(wget -qO- ipv4.icanhazip.com);
 domain=$(cat /etc/v2ray/domain)
 else
-PUBLIC_IP=$IP
-domain=$domain
+domain=$IP
 fi
 until [[ $VPN_USER =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		read -rp "Username: " -e VPN_USER
