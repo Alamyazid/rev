@@ -2,9 +2,10 @@
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
 PUBLIC_IP=$(wget -qO- ipv4.icanhazip.com);
+domain=$(cat /etc/v2ray/domain)
 else
 PUBLIC_IP=$IP
-domain=$(cat /etc/v2ray/domain)
+domain=$domain
 fi
 until [[ $VPN_USER =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		read -rp "Username: " -e VPN_USER
