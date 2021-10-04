@@ -32,7 +32,6 @@ wget https://raw.githubusercontent.com/Alamyazid/rev/main/ins-vt.sh && chmod +x 
 #install L2TP
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/Alamyazid/rev/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-#wget https://raw.githubusercontent.com/Alamyazid/Autoscript/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/weleh.sh
 rm -f /root/sstp.sh
@@ -43,7 +42,6 @@ rm -f /root/ins-vt.sh
 rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/cf.sh
-rm -f /root/websocket.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
