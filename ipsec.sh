@@ -276,7 +276,7 @@ mkdir -p /run/pluto
 service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
-wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/addl2tp.sh && chmod +x /usr/bin/addl2tp
+wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/addl2tp.sh && chmod +x /usr/bin/add-l2tp
 wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/Alamyazid/rev/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
 wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/Alamyazid/rev/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
 wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/Alamyazid/rev/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
