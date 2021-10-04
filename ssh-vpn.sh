@@ -387,7 +387,6 @@ wget -O /usr/bin/user-limit https://raw.githubusercontent.com/Alamyazid/rev/main
 wget -O cfd "https://raw.githubusercontent.com/Alamyazid/rev/main/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/Alamyazid/rev/main/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/Alamyazid/rev/main/cfh.sh"
-wget -O autoreboot "https://raw.githubusercontent.com/Alamyazid/rev/main/autoreboot.sh"
 chmod +x add-host
 chmod +x menu
 chmod +x usernew
