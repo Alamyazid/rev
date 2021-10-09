@@ -5,7 +5,6 @@ NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 
 apt install jq curl -y
-source /root/mail.conf
 DOMAIN=iwaksapat.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.iwaksapat.my.id
