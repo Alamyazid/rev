@@ -38,7 +38,5 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      --data '{"type":"A","name":"'${SUB_DOMAIN}'","content":"'${IP}'","ttl":120,"proxied":false}')
 echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
-echo $SUB_DOMAIN > /root/mail.conf
-echo $CF_ID > /root/mail.conf
-echo $CF_KEY > /root/mail.conf
+echo $SUB_DOMAIN; $CF_ID; $CF_KEY > /root/mail.conf
 rm -f /root/cf.sh
