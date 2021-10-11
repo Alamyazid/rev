@@ -5,9 +5,9 @@ NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 
 source /root/mail.conf
-DOMAIN=$domain
-CF_ID=$email
-CF_KEY=$key
+DOMAIN=$DOMAIN
+CF_ID=$CF_ID
+CF_KEY=$CF_KEY
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 read -p "Masukan Subdomain Anda :" sub
