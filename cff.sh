@@ -4,9 +4,9 @@ cd /root
 read -e -p " Masukan Domain :$domain" domain
 read -e -p " Masukan Email Cloudflare :" email
 read -e -p " Masukan Api Key :" key
-echo -e "domain=$domain" >> /root/mail.conf
-echo -e "email=$email" >> /root/mail.conf
-echo -e "key=$key" >> /root/mail.conf
+echo -e "DOMAIN=$DOMAIN" >> /root/mail.conf
+echo -e "CF_ID=$CF_ID" >> /root/mail.conf
+echo -e "CF_KEY=$CF_KEY" >> /root/mail.conf
 clear
 echo "Done"
 echo "Your ID Cloudflare"
