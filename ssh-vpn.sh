@@ -370,7 +370,7 @@ wget -O renew "https://raw.githubusercontent.com/Alamyazid/rev/main/renew.sh"
 wget -O autokill "https://raw.githubusercontent.com/Alamyazid/rev/main/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/Alamyazid/rev/main/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/Alamyazid/rev/main/tendang.sh"
-wget -O clear-log "https://raw.githubusercontent.com/Alamyazid/rev/main/clear-log.sh"
+#wget -O clear-log "https://raw.githubusercontent.com/Alamyazid/rev/main/clear-log.sh"
 wget -O change-port "https://raw.githubusercontent.com/Alamyazid/rev/main/change.sh"
 wget -O port-ovpn "https://raw.githubusercontent.com/Alamyazid/rev/main/port-ovpn.sh"
 wget -O port-ssl "https://raw.githubusercontent.com/Alamyazid/rev/main/port-ssl.sh"
@@ -404,7 +404,7 @@ chmod +x tendang
 chmod +x ceklim
 chmod +x ram
 chmod +x renew
-chmod +x clear-log
+#chmod +x clear-log
 chmod +x change-port
 chmod +x port-ovpn
 chmod +x port-ssl
