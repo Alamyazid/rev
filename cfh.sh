@@ -9,6 +9,7 @@ DOMAIN=$domain
 CF_ID=$email
 CF_KEY=$key
 set -euo pipefail
+IP=$(wget -qO- ifconfig.me/ip);
 read -p "Masukan Subdomain Anda :" sub
 read -p "Masukan Ip BUG :" IP
 echo "Updating DNS for ${sub}..."
