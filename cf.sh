@@ -5,6 +5,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 
 apt install jq curl -y
+cat > /root/mail.conf << END
 DOMAIN=iwaksapat.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.kalimantan-rev.my.id
@@ -38,5 +39,5 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      --data '{"type":"A","name":"'${SUB_DOMAIN}'","content":"'${IP}'","ttl":120,"proxied":false}')
 echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
-echo $SUB_DOMAIN > /root/mail.conf
+END
 rm -f /root/cf.sh
