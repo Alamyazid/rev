@@ -9,7 +9,6 @@ DOMAIN=$DOMAIN
 CF_ID=$CF_ID
 CF_KEY=$CF_KEY
 set -euo pipefail
-IP=$(wget -qO- ifconfig.me/ip);
 read -p "Masukan Subdomain Anda :" sub
 echo "Updating DNS for ${sub}..."
 ZONE=$(curl -sLX GET "https://api.cloudflare.com/client/v4/zones?name=${DOMAIN}&status=active" \
