@@ -5,7 +5,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 
 source /root/mail.conf
-SUB_DOMAIN=$domain
+DOMAIN=$domain
 CF_ID=$email
 CF_KEY=$key
 set -euo pipefail
