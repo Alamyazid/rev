@@ -19,19 +19,19 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user pradiasangindraswari@gmail.com
-from pradiasangindraswari@gmail.com
-password ybkehwuifdgvgiiq
+user exeldept13@gmail.com
+from exeldept13@gmail.com
+password egtcdxpovpucnxod
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/lesta-1/sc/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/lesta-1/sc/main/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/lesta-1/sc/main/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/lesta-1/sc/main/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/lesta-1/sc/main/strt.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/lesta-1/sc/main/limit-speed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/alamyazid/rev/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/alamyazid/rev/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/Alamyazid/rev/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/Alamyazid/rev/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/Alamyazid/rev/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/Alamyazid/rev/main/limit-speed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp
