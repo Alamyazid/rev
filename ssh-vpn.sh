@@ -387,6 +387,7 @@ wget -O /usr/bin/user-limit https://raw.githubusercontent.com/Alamyazid/rev/main
 wget -O cfd "https://raw.githubusercontent.com/Alamyazid/rev/main/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/Alamyazid/rev/main/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/Alamyazid/rev/main/cfh.sh"
+wget -O upgrade-mn "https://raw.githubusercontent.com/Alamyazid/rev/main/up-menu.sh"
 chmod +x add-host
 chmod +x menu
 chmod +x usernew
@@ -421,6 +422,7 @@ chmod +x cfd
 chmod +x cff
 chmod +x cfh
 chmod +x autoreboot
+chmod +x upgrade-mn
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 # remove unnecessary files
 cd
