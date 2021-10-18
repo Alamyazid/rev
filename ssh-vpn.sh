@@ -259,7 +259,7 @@ accept = 445
 connect = 127.0.0.1:22
 
 [dropbear]
-accept = 777
+accept = 443
 connect = 127.0.0.1:109
 
 [openvpn]
@@ -267,7 +267,7 @@ accept = 442
 connect = 127.0.0.1:1194
 
 [wsssl]
-accept = 443
+accept = 441
 connect = 127.0.0.1:770
 
 END
