@@ -286,11 +286,12 @@ mkdir build
 cmake .. -DBUILD_NOTHING_BY_DEFAULT=1 -DBUILD_UDPGW=1
 sudo make install
 
+END
 
-END# install multi port 443
+#install multi port 443
 apt-get install sslh -y
 #MULTI PORT 443
-wget -O /etc/default/sslh "https://raw.githubusercontent.com/alamyazid/kalimantan-rev/main/install/sslh.conf"
+wget -O /etc/default/sslh "https://raw.githubusercontent.com/alamyazid/rev/main/install/sslh.conf"
 
 #Service Restart
 systemctl enable sslh
