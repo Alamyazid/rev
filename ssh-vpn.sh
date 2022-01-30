@@ -291,7 +291,7 @@ END
 #install multi port 443
 apt-get install sslh -y
 #MULTI PORT 443
-wget -O /etc/default/sslh "https://raw.githubusercontent.com/alamyazid/rev/main/install/sslh.conf"
+wget -O /etc/default/sslh "https://raw.githubusercontent.com/alamyazid/rev/main/sslh.conf"
 
 #Service Restart
 systemctl enable sslh
