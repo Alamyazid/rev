@@ -5,9 +5,9 @@ NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 
 apt install jq curl -y
-DOMAIN=kalimantan-rev.my.id
+DOMAIN=iwaksaluang.cf
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.kalimantan-rev.my.id
+SUB_DOMAIN=${sub}.iwaksaluang.cf
 CF_ID=alamyazid13@gmail.com
 CF_KEY=15dd55d67ed3c631306554211057b4ab5dbf7
 set -euo pipefail
@@ -40,7 +40,7 @@ echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
 #mail.conf
 cat > /root/mail.conf << END
-DOMAIN=kalimantan-rev.my.id
+DOMAIN=iwaksaluang.cf
 CF_ID=alamyazid13@gmail.com
 CF_KEY=15dd55d67ed3c631306554211057b4ab5dbf7
 END
