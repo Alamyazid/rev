@@ -9,7 +9,7 @@ DOMAIN=iwaksaluang.cf
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.iwaksaluang.cf
 CF_ID=alamyazid13@gmail.com
-CF_KEY=15dd55d67ed3c631306554211057b4ab5dbf7
+CF_KEY=8e3a5871106936479556197772daa54786137
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
