@@ -9,7 +9,7 @@ DOMAIN=migtunnel.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.migtunnel.my.id
 CF_ID=exeldept13@gmail.com
-CF_KEY=
+CF_KEY=cd9375e00bd60eef46d1bdde69337d468ce2b
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
@@ -40,9 +40,6 @@ echo "Host : $SUB_DOMAIN"
 echo $SUB_DOMAIN > /root/domain
 cp /root/domain /etc/xray/
 echo $SUB_DOMAIN > /etc/v2ray/domain
-echo $SUB_DOMAIN > /etc/xray/domain
-echo $SUB_DOMAIN > /root/domain
-echo $SUB_DOMAIN > /etc/xray/domain
 
 #mail.conf
 cat > /root/mail.conf << END
