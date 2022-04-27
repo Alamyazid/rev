@@ -19,11 +19,10 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP=$(wget -qO- ifconfig.me/ip);
+MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-MYIP=$(wget -qO- ifconfig.me/ip);
+IZIN=$(wget -qO- ipinfo.io/ip)
 
-rm -f setup.sh
 clear
 if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
